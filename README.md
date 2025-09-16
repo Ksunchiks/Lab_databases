@@ -12,13 +12,8 @@
   <a href="#-lab9"><img alt="lab9" src="https://img.shields.io/badge/Lab9-violet"></a> 
 </p>
 
-# <img src="https://github.com/user-attachments/assets/e080adec-6af7-4bd2-b232-d43cb37024ac" width="20" height="20"/> Lab1
-[Назад](#content)
-<h3 align="center">
-  <a href="#client"></a>
- 
 Вариант №9: Автоматизация супермаркета.
-
+Примеры сущностей:
 Товары: код, название товара, цена продажи, закупочная цена, единица измерения (шт., кг.), производитель, дата производства, срок годности, количество;
 Карточки, выданные покупателям: Код карточки, размер скидки в %.
 Корзина: Товары, которые набрал покупатель и предъявляет к оплате на кассе, дата покупки, фамилия кассира;
@@ -30,37 +25,26 @@
 - Определение скидки для корзины (если предъявлена карта, сумму уменьшаем на размер скидки; если карта не предъявлена и если сумма > 2000руб., выписываем карту со скидкой 4%, если сумма > 500руб., выписываем карту 2%);
 
 
-#### №6. Текст задания: Вывести все таблицы SQL Server без столбца identity.
-```tsql
---- 
-SELECT 1 
-```
+# <img src="https://github.com/user-attachments/assets/e080adec-6af7-4bd2-b232-d43cb37024ac" width="20" height="20"/> Lab1
+[Назад](#content)
+<h3 align="center">
+  <a href="#client"></a>
+ 
 
-```tsql
--- Использование
-EXEC GetTestData;
-```
+Разработать ER-модель данной предметной области: выделить сущности, их атрибуты, связи между сущностями. 
+Для каждой сущности указать ее имя, атрибут (или набор атрибутов), являющийся первичным ключом, список остальных атрибутов.
+Для каждого атрибута указать его тип, ограничения, может ли он быть пустым, является ли он первичным ключом.
+Для каждой связи между сущностями указать: 
+- тип связи (1:1, 1:M, M:N)
+- обязательность
 
-| DatabaseName | SchemaName | TableName | ObjectId |
-| :--- | :--- | :--- | :--- |
-| master | dbo | spt\_fallback\_db | 117575457 |
-| master | dbo | spt\_fallback\_dev | 133575514 |
-| master | dbo | spt\_fallback\_usg | 149575571 |
-| master | dbo | spt\_monitor | 1803153469 |
-| master | dbo | MSreplication\_options | 2107154552 |
+ER-модель д.б. представлена в виде ER-диаграммы (картинка)
 
-| DatabaseName | SchemaName | TableName | ObjectId |
-| :--- | :--- | :--- | :--- |
-| Northwind | dbo | Customers | 901578250 |
-| Northwind | dbo | Order Details | 965578478 |
+По имеющейся ER-модели создать реляционную модель данных и отобразить ее в виде списка сущностей с их атрибутами и типами атрибутов,  для атрибутов указать, явл. ли он первичным или внешним ключом 
 
-| DatabaseName | SchemaName | TableName | ObjectId |
-| :--- | :--- | :--- | :--- |
-| msdb | dbo | sysssispackages | 231671873 |
-| msdb | dbo | sysssispackagefolders | 311672158 |
-| msdb | dbo | sysutility\_ucp\_aggregated\_mi\_health\_internal | 361768346 |
-| msdb | dbo | syspolicy\_execution\_internal | 432720594 |
-| ...  |
+
+
+
 
 # <img src="https://github.com/user-attachments/assets/e080adec-6af7-4bd2-b232-d43cb37024ac" width="20" height="20"/> Lab2
 [Назад](#content) 
@@ -69,17 +53,3 @@ EXEC GetTestData;
   2 Создать процедуру, которая принимает в качестве параметров имя таблицы и имена двух полей этой таблице и добавляет содержимое первого поля к содержимому второго. 
   Если второе поле пустое, то просто копируется содержимое поля 1 в содержимое поля 2 и наоборот.
 </h3>
-
-```tsql
--- После использования
-SELECT * FROM SampleTable;
-```
-
-| ID | Field1 | Field2 |
-| :--- | :--- | :--- |
-| 1 | Hello | Hello |
-| 2 | World | World |
-| 3 | Goodbye | EveryoneGoodbye |
-| 4 | null | null |
-
-![image](/sources/yargu.png)
