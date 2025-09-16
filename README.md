@@ -49,11 +49,12 @@ ER-модель д.б. представлена в виде ER-диаграмм�
 <h3 align="left">
   <a href="#client"></a>
 1.1 ER-модель
-![alt text](https://github.com/Ksunchiks/Lab_databases/blob/main/er_model.png?raw=true)
   
+![image](https://github.com/Ksunchiks/Lab_databases/blob/main/Lab%201/er_model.png)
+ 
 1.2 Реляционная модель
 
-</h3>
+
 # <img src="https://github.com/user-attachments/assets/e080adec-6af7-4bd2-b232-d43cb37024ac" width="20" height="20"/> Lab2
 [Назад](#content) 
 <h3 align="center"> 
