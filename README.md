@@ -2,9 +2,9 @@
 
 <p align="center">
   <a href="#-lab1"><img alt="lab1" src="https://img.shields.io/badge/Lab1-crimson"></a> 
-  <a href="#-lab2"><img alt="lab2" src="https://img.shields.io/badge/Lab2-darkgreen"></a>
+  <a href="#-lab2"><img alt="lab2" src="https://img.shields.io/badge/Lab2-forestgreen"></a>
   <a href="#-lab3"><img alt="lab3" src="https://img.shields.io/badge/Lab3-darkorange"></a>
-  <a href="#-lab4"><img alt="lab4" src="https://img.shields.io/badge/Lab4-midnightblue"></a>
+  <a href="#-lab4"><img alt="lab4" src="https://img.shields.io/badge/Lab4-steelblue"></a>
   <a href="#-lab5"><img alt="lab5" src="https://img.shields.io/badge/Lab5-tomato"></a>
   <a href="#-lab6"><img alt="lab6" src="https://img.shields.io/badge/Lab6-olive"></a> 
   <a href="#-lab7"><img alt="lab7" src="https://img.shields.io/badge/Lab7-chocolate"></a>
