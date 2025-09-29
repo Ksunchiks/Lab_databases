@@ -72,6 +72,7 @@ ER-модель д.б. представлена в виде ER-диаграмм�
 <h3>
 2.1 [SQL-код создания таблицы](https://github.com/Ksunchiks/Lab_databases/blob/main/Lab%202/QuerySupermarket.sql)
 
+
 2.2 Диаграмма БД "Supermarket":
   
 ![image](https://github.com/Ksunchiks/Lab_databases/blob/main/Lab%202/diagram_supermarket.png)
@@ -80,21 +81,27 @@ ER-модель д.б. представлена в виде ER-диаграмм�
 
 <h4>
   1) "Товар":
+  
 ![image](https://github.com/Ksunchiks/Lab_databases/blob/main/Lab%202/table_products.png)
   
   2) "Сотрудник":
+     
 ![image](https://github.com/Ksunchiks/Lab_databases/blob/main/Lab%202/table_employee.png)
 
   3) "Покупатель":
+     
 ![image](https://github.com/Ksunchiks/Lab_databases/blob/main/Lab%202/table_customer.png)
 
   4) "Покупка":
+     
  ![image](https://github.com/Ksunchiks/Lab_databases/blob/main/Lab%202/table_sale.png)
 
   5) "Позиция в чеке":
+     
  ![image](https://github.com/Ksunchiks/Lab_databases/blob/main/Lab%202/table_saleitem.png)
 
-  6) "Скидочная карта":
+  7) "Скидочная карта":
+     
  ![image](https://github.com/Ksunchiks/Lab_databases/blob/main/Lab%202/table_discountcard.png)
 
 </h4>
