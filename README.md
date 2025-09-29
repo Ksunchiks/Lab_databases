@@ -48,13 +48,14 @@ ER-модель д.б. представлена в виде ER-диаграмм�
 
 <h3 align="left">
   <a href="#client"></a>
-1.1 ER-модель
+1.1 ER-модель:
   
 ![image](https://github.com/Ksunchiks/Lab_databases/blob/main/Lab%201/er_model.png)
  
-1.2 Реляционная модель
+1.2 Реляционная модель:
 
 ![image](https://github.com/Ksunchiks/Lab_databases/blob/main/Lab%201/реляционная%20модель.png)
+</h3>
 
 # <img src="https://github.com/user-attachments/assets/e080adec-6af7-4bd2-b232-d43cb37024ac" width="20" height="20"/> Lab2
 [Назад](#content) 
@@ -68,8 +69,73 @@ ER-модель д.б. представлена в виде ER-диаграмм�
 - создать диаграмму
 - заполнить все таблицы адекватной информацией (не меньше 10 записей в таблицах, наличие примеров для связей типа 1:M )
 
-<h3 align="left">
-  <a href="#client"></a>
-1.1 Diagram supermarket
+<h3>
+2.1 [SQL-код создания таблицы](https://github.com/Ksunchiks/Lab_databases/blob/main/Lab%202/QuerySupermarket.sql)
+
+2.2 Диаграмма БД "Supermarket":
   
 ![image](https://github.com/Ksunchiks/Lab_databases/blob/main/Lab%202/diagram_supermarket.png)
+  
+2.3 Примеры заполненных таблиц:
+
+<h4>
+  1) "Товар":
+![image](https://github.com/Ksunchiks/Lab_databases/blob/main/Lab%202/table_products.png)
+  
+  2) "Сотрудник":
+![image](https://github.com/Ksunchiks/Lab_databases/blob/main/Lab%202/table_employee.png)
+
+  3) "Покупатель":
+![image](https://github.com/Ksunchiks/Lab_databases/blob/main/Lab%202/table_customer.png)
+
+  4) "Покупка":
+ ![image](https://github.com/Ksunchiks/Lab_databases/blob/main/Lab%202/table_sale.png)
+
+  5) "Позиция в чеке":
+ ![image](https://github.com/Ksunchiks/Lab_databases/blob/main/Lab%202/table_saleitem.png)
+
+  6) "Скидочная карта":
+ ![image](https://github.com/Ksunchiks/Lab_databases/blob/main/Lab%202/table_discountcard.png)
+
+</h4>
+
+# <img src="https://github.com/user-attachments/assets/e080adec-6af7-4bd2-b232-d43cb37024ac" width="20" height="20"/> Lab3
+[Назад](#content)
+<h3 align="left">
+  <a href="#client"></a>
+</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
