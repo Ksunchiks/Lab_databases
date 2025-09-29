@@ -70,6 +70,7 @@ ER-модель д.б. представлена в виде ER-диаграмм�
 - заполнить все таблицы адекватной информацией (не меньше 10 записей в таблицах, наличие примеров для связей типа 1:M )
 
 <h3>
+  
 2.1 [SQL-код создания таблицы](https://github.com/Ksunchiks/Lab_databases/blob/main/Lab%202/QuerySupermarket.sql)
 
 
@@ -78,31 +79,20 @@ ER-модель д.б. представлена в виде ER-диаграмм�
 ![image](https://github.com/Ksunchiks/Lab_databases/blob/main/Lab%202/diagram_supermarket.png)
   
 2.3 Примеры заполненных таблиц:
-
+</h3>
 <h4>
+  
   1) "Товар":
   
 ![image](https://github.com/Ksunchiks/Lab_databases/blob/main/Lab%202/table_products.png)
-  
-  2) "Сотрудник":
-     
-![image](https://github.com/Ksunchiks/Lab_databases/blob/main/Lab%202/table_employee.png)
 
-  3) "Покупатель":
+  2) "Покупатель":
      
 ![image](https://github.com/Ksunchiks/Lab_databases/blob/main/Lab%202/table_customer.png)
 
-  4) "Покупка":
+  3) "Покупка":
      
  ![image](https://github.com/Ksunchiks/Lab_databases/blob/main/Lab%202/table_sale.png)
-
-  5) "Позиция в чеке":
-     
- ![image](https://github.com/Ksunchiks/Lab_databases/blob/main/Lab%202/table_saleitem.png)
-
-  7) "Скидочная карта":
-     
- ![image](https://github.com/Ksunchiks/Lab_databases/blob/main/Lab%202/table_discountcard.png)
 
 </h4>
 
