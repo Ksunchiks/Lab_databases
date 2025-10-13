@@ -72,6 +72,7 @@ ER-модель д.б. представлена в виде ER-диаграмм�
 
 <h3> 
 2.1 [SQL-код создания таблиц](https://github.com/Ksunchiks/Lab_databases/blob/main/Lab%202/Query_Supermarket.sql)
+  
 </h3>
 <h3>
 2.2 Диаграмма БД "Supermarket":
