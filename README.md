@@ -52,7 +52,8 @@ ER-модель д.б. представлена в виде ER-диаграмм�
 1.1 ER-модель:
   
 ![image](https://github.com/Ksunchiks/Lab_databases/blob/main/Lab%201/er_model.png)
- 
+</h3>
+<h3>
 1.2 Реляционная модель:
 
 ![image](https://github.com/Ksunchiks/Lab_databases/blob/main/Lab%201/реляционная%20модель.png)
