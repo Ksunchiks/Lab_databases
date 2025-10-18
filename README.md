@@ -1,16 +1,16 @@
 <h1 name="content" align="center"><a href=""><img src="https://github.com/user-attachments/assets/e080adec-6af7-4bd2-b232-d43cb37024ac" width="20" height="20"/></a> MSSQL</h1>
 
 <p align="center">
-  <a href="#-Lab1"><img alt="Lab1" src="https://img.shields.io/badge/Lab1-crimson"></a> 
-  <a href="#-Lab2"><img alt="Lab2" src="https://img.shields.io/badge/Lab2-forestgreen"></a>
-  <a href="#-Lab3"><img alt="Lab3" src="https://img.shields.io/badge/Lab3-darkorange"></a>
-  <a href="#-Lab4"><img alt="Lab4" src="https://img.shields.io/badge/Lab4-steelblue"></a>
-  <a href="#-Lab5"><img alt="Lab5" src="https://img.shields.io/badge/Lab5-tomato"></a>
-  <a href="#-Lab6"><img alt="Lab6" src="https://img.shields.io/badge/Lab6-olive"></a> 
-  <a href="#-Lab7"><img alt="Lab7" src="https://img.shields.io/badge/Lab7-chocolate"></a>
-  <a href="#-Lab8"><img alt="Lab8" src="https://img.shields.io/badge/Lab8-rosybrown"></a>
-  <a href="#-Lab9"><img alt="Lab9" src="https://img.shields.io/badge/Lab9-gray"></a> 
-  <a href="#-Lab10"><img alt="Lab10" src="https://img.shields.io/badge/Lab10-maroon"></a> 
+  <a href="#-lab1"><img alt="Lab1" src="https://img.shields.io/badge/Lab1-crimson"></a> 
+  <a href="#-lab2"><img alt="Lab2" src="https://img.shields.io/badge/Lab2-forestgreen"></a>
+  <a href="#-lab3"><img alt="Lab3" src="https://img.shields.io/badge/Lab3-darkorange"></a>
+  <a href="#-lab4"><img alt="Lab4" src="https://img.shields.io/badge/Lab4-steelblue"></a>
+  <a href="#-lab5"><img alt="Lab5" src="https://img.shields.io/badge/Lab5-tomato"></a>
+  <a href="#-lab6"><img alt="Lab6" src="https://img.shields.io/badge/Lab6-olive"></a> 
+  <a href="#-lab7"><img alt="Lab7" src="https://img.shields.io/badge/Lab7-chocolate"></a>
+  <a href="#-lab8"><img alt="Lab8" src="https://img.shields.io/badge/Lab8-rosybrown"></a>
+  <a href="#-lab9"><img alt="Lab9" src="https://img.shields.io/badge/Lab9-gray"></a> 
+  <a href="#-lab10"><img alt="Lab10" src="https://img.shields.io/badge/Lab10-maroon"></a> 
 </p>
 
 <h3 align="center">
@@ -114,6 +114,8 @@ ER-модель д.б. представлена в виде ER-диаграмм�
 3.2 [Docx-файл с описанием запросов](https://github.com/Ksunchiks/Lab_databases/blob/main/Lab%203/КрыловаК_ПМИ32.docx)
 </h3>
 
+---
+
 ### Часть 1. Цель: изучить конструкции языка SQL для манипулирования данными в СУБД  MSSQL.
 
 #### 1. Выборка из одной таблицы
@@ -175,8 +177,8 @@ b) Вывести все скидки, которые используются �
 c) Подсчитать для каждого % скидки количество карточек, предъявленных за вчерашний день и вывести в виде:
 
 | Процент | 0% | 2% | 4% |
-| :--- | :--- |:--- |
-| Количество | ... | ...| ...|
+| :--- | :--- | :--- | :--- |
+| Количество | ... | ... | ... |
 
 d)  Вывести список товаров, проданных за сегодня, их количество и суммарную стоимость
 
