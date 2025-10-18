@@ -1,15 +1,15 @@
 <h1 name="content" align="center"><a href=""><img src="https://github.com/user-attachments/assets/e080adec-6af7-4bd2-b232-d43cb37024ac" width="20" height="20"/></a> MSSQL</h1>
 
 <p align="center">
-  <a href="#-lab1"><img alt="lab1" src="https://img.shields.io/badge/Lab1-crimson"></a> 
-  <a href="#-lab2"><img alt="lab2" src="https://img.shields.io/badge/Lab2-forestgreen"></a>
-  <a href="#-lab3"><img alt="lab3" src="https://img.shields.io/badge/Lab3-darkorange"></a>
-  <a href="#-lab4"><img alt="lab4" src="https://img.shields.io/badge/Lab4-steelblue"></a>
-  <a href="#-lab5"><img alt="lab5" src="https://img.shields.io/badge/Lab5-tomato"></a>
-  <a href="#-lab6"><img alt="lab6" src="https://img.shields.io/badge/Lab6-olive"></a> 
-  <a href="#-lab7"><img alt="lab7" src="https://img.shields.io/badge/Lab7-chocolate"></a>
-  <a href="#-lab8"><img alt="lab8" src="https://img.shields.io/badge/Lab8-rosybrown"></a>
-  <a href="#-lab9"><img alt="lab9" src="https://img.shields.io/badge/Lab9-maroon"></a> 
+  <a href="#-lab1"><img alt="Lab 1" src="https://img.shields.io/badge/Lab1-crimson"></a> 
+  <a href="#-lab2"><img alt="Lab 2" src="https://img.shields.io/badge/Lab2-forestgreen"></a>
+  <a href="#-lab3"><img alt="Lab 3" src="https://img.shields.io/badge/Lab3-darkorange"></a>
+  <a href="#-lab4"><img alt="Lab 4" src="https://img.shields.io/badge/Lab4-steelblue"></a>
+  <a href="#-lab5"><img alt="Lab 5" src="https://img.shields.io/badge/Lab5-tomato"></a>
+  <a href="#-lab6"><img alt="Lab 6" src="https://img.shields.io/badge/Lab6-olive"></a> 
+  <a href="#-lab7"><img alt="Lab 7" src="https://img.shields.io/badge/Lab7-chocolate"></a>
+  <a href="#-lab8"><img alt="Lab 8" src="https://img.shields.io/badge/Lab8-rosybrown"></a>
+  <a href="#-lab9"><img alt="Lab 9" src="https://img.shields.io/badge/Lab9-maroon"></a> 
 </p>
 
 <h3 align="center">
@@ -21,7 +21,6 @@
 - Товары: код, название товара, цена продажи, закупочная цена, единица измерения (шт., кг.), производитель, дата производства, срок годности, количество
 - Карточки, выданные покупателям: Код карточки, размер скидки в %
 - Корзина: Товары, которые набрал покупатель и предъявляет к оплате на кассе, дата покупки, фамилия кассира
-
 
 Реализовать:
 - Вывод товаров с истекшим сроком годности
@@ -103,6 +102,12 @@ ER-модель д.б. представлена в виде ER-диаграмм�
 [Назад](#content)
 <h3 align="left">
   <a href="#client"></a>
+<h3>
+3.1 [SQL-код создания запросов](https://github.com/Ksunchiks/Lab_databases/blob/main/Lab%203/Lab3_Query.sql)
+</h3>
+  
+<h3>
+3.2 [Docx-файл с описанием запросов](https://github.com/Ksunchiks/Lab_databases/blob/main/Lab%203/КрыловаК_ПМИ32.docx)
 </h3>
 
 ### Часть 1. Цель: изучить конструкции языка SQL для манипулирования данными в СУБД  MSSQL.
@@ -165,11 +170,9 @@ b) Вывести все скидки, которые используются �
 
 c) Подсчитать для каждого % скидки количество карточек, предъявленных за вчерашний день и вывести в виде:
 
-| Процент | Количество | 
-| :--- | :--- |
-| 0% | ... | 
-| 2% | ... | 
-| 4% | ... |
+| Процент | 0% | 2% | 4% |
+| :--- | :--- |:--- |
+| Количество | ... | ...| ...|
 
 d)  Вывести список товаров, проданных за сегодня, их количество и суммарную стоимость
 
