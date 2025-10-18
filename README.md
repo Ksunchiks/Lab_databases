@@ -1,16 +1,16 @@
 <h1 name="content" align="center"><a href=""><img src="https://github.com/user-attachments/assets/e080adec-6af7-4bd2-b232-d43cb37024ac" width="20" height="20"/></a> MSSQL</h1>
 
 <p align="center">
-  <a href="#-Lab 1"><img alt="Lab 1" src="https://img.shields.io/badge/Lab1-crimson"></a> 
-  <a href="#-Lab 2"><img alt="Lab 2" src="https://img.shields.io/badge/Lab2-forestgreen"></a>
-  <a href="#-Lab 3"><img alt="Lab 3" src="https://img.shields.io/badge/Lab3-darkorange"></a>
-  <a href="#-Lab 4"><img alt="Lab 4" src="https://img.shields.io/badge/Lab4-steelblue"></a>
-  <a href="#-Lab 5"><img alt="Lab 5" src="https://img.shields.io/badge/Lab5-tomato"></a>
-  <a href="#-Lab 6"><img alt="Lab 6" src="https://img.shields.io/badge/Lab6-olive"></a> 
-  <a href="#-Lab 7"><img alt="Lab 7" src="https://img.shields.io/badge/Lab7-chocolate"></a>
-  <a href="#-Lab 8"><img alt="Lab 8" src="https://img.shields.io/badge/Lab8-rosybrown"></a>
-  <a href="#-Lab 9"><img alt="Lab 9" src="https://img.shields.io/badge/Lab9-gray"></a> 
-  <a href="#-Lab 10"><img alt="Lab 10" src="https://img.shields.io/badge/Lab10-maroon"></a> 
+  <a href="#-Lab1"><img alt="Lab1" src="https://img.shields.io/badge/Lab1-crimson"></a> 
+  <a href="#-Lab2"><img alt="Lab2" src="https://img.shields.io/badge/Lab2-forestgreen"></a>
+  <a href="#-Lab3"><img alt="Lab3" src="https://img.shields.io/badge/Lab3-darkorange"></a>
+  <a href="#-Lab4"><img alt="Lab4" src="https://img.shields.io/badge/Lab4-steelblue"></a>
+  <a href="#-Lab5"><img alt="Lab5" src="https://img.shields.io/badge/Lab5-tomato"></a>
+  <a href="#-Lab6"><img alt="Lab6" src="https://img.shields.io/badge/Lab6-olive"></a> 
+  <a href="#-Lab7"><img alt="Lab7" src="https://img.shields.io/badge/Lab7-chocolate"></a>
+  <a href="#-Lab8"><img alt="Lab8" src="https://img.shields.io/badge/Lab8-rosybrown"></a>
+  <a href="#-Lab9"><img alt="Lab9" src="https://img.shields.io/badge/Lab9-gray"></a> 
+  <a href="#-Lab10"><img alt="Lab10" src="https://img.shields.io/badge/Lab10-maroon"></a> 
 </p>
 
 <h3 align="center">
@@ -30,7 +30,7 @@
 - Определение скидки для корзины (если предъявлена карта, сумму уменьшаем на размер скидки; если карта не предъявлена и если сумма > 2000руб., выписываем карту со скидкой 4%, если сумма > 500руб., выписываем карту 2%)
 
 
-# <img src="https://github.com/user-attachments/assets/e080adec-6af7-4bd2-b232-d43cb37024ac" width="20" height="20"/> Lab 1
+# <img src="https://github.com/user-attachments/assets/e080adec-6af7-4bd2-b232-d43cb37024ac" width="20" height="20"/>Lab1
 [Назад](#content)
 <h3 align="left">
   <a href="#client"></a>
@@ -59,7 +59,7 @@ ER-модель д.б. представлена в виде ER-диаграмм�
 ![image](https://github.com/Ksunchiks/Lab_databases/blob/main/Lab%201/реляционная%20модель.png)
 </h3>
 
-# <img src="https://github.com/user-attachments/assets/e080adec-6af7-4bd2-b232-d43cb37024ac" width="20" height="20"/> Lab 2
+# <img src="https://github.com/user-attachments/assets/e080adec-6af7-4bd2-b232-d43cb37024ac" width="20" height="20"/> Lab2
 [Назад](#content) 
 <h3 align="left"> 
   <a href="#client"></a>
@@ -99,7 +99,7 @@ ER-модель д.б. представлена в виде ER-диаграмм�
 </h4>
 </h3>
 
-# <img src="https://github.com/user-attachments/assets/e080adec-6af7-4bd2-b232-d43cb37024ac" width="20" height="20"/> Lab 3
+# <img src="https://github.com/user-attachments/assets/e080adec-6af7-4bd2-b232-d43cb37024ac" width="20" height="20"/> Lab3
 [Назад](#content)
 <h3 align="left">
   <a href="#client"></a>
