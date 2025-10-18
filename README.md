@@ -1,16 +1,16 @@
 <h1 name="content" align="center"><a href=""><img src="https://github.com/user-attachments/assets/e080adec-6af7-4bd2-b232-d43cb37024ac" width="20" height="20"/></a> MSSQL</h1>
 
 <p align="center">
-  <a href="#-lab1"><img alt="Lab1" src="https://img.shields.io/badge/Lab1-crimson"></a> 
-  <a href="#-lab2"><img alt="Lab2" src="https://img.shields.io/badge/Lab2-forestgreen"></a>
-  <a href="#-lab3"><img alt="Lab3" src="https://img.shields.io/badge/Lab3-darkorange"></a>
-  <a href="#-lab4"><img alt="Lab4" src="https://img.shields.io/badge/Lab4-steelblue"></a>
-  <a href="#-lab5"><img alt="Lab5" src="https://img.shields.io/badge/Lab5-tomato"></a>
-  <a href="#-lab6"><img alt="Lab6" src="https://img.shields.io/badge/Lab6-olive"></a> 
-  <a href="#-lab7"><img alt="Lab7" src="https://img.shields.io/badge/Lab7-chocolate"></a>
-  <a href="#-lab8"><img alt="Lab8" src="https://img.shields.io/badge/Lab8-rosybrown"></a>
-  <a href="#-lab9"><img alt="Lab9" src="https://img.shields.io/badge/Lab9-gray"></a> 
-  <a href="#-lab10"><img alt="Lab10" src="https://img.shields.io/badge/Lab10-maroon"></a> 
+  <a href="#-lab1"><img alt="lab1" src="https://img.shields.io/badge/Lab1-crimson"></a> 
+  <a href="#-lab2"><img alt="lab2" src="https://img.shields.io/badge/Lab2-forestgreen"></a>
+  <a href="#-lab3"><img alt="lab3" src="https://img.shields.io/badge/Lab3-darkorange"></a>
+  <a href="#-lab4"><img alt="lab4" src="https://img.shields.io/badge/Lab4-steelblue"></a>
+  <a href="#-lab5"><img alt="lab5" src="https://img.shields.io/badge/Lab5-tomato"></a>
+  <a href="#-lab6"><img alt="lab6" src="https://img.shields.io/badge/Lab6-olive"></a> 
+  <a href="#-lab7"><img alt="lab7" src="https://img.shields.io/badge/Lab7-chocolate"></a>
+  <a href="#-lab8"><img alt="lab8" src="https://img.shields.io/badge/Lab8-rosybrown"></a>
+  <a href="#-lab9"><img alt="lab9" src="https://img.shields.io/badge/Lab9-gray"></a> 
+  <a href="#-lab10"><img alt="lab10" src="https://img.shields.io/badge/Lab10-maroon"></a> 
 </p>
 
 <h3 align="center">
@@ -28,7 +28,6 @@
 - Подсчет выручки супермаркета за заданный период
 - Подсчет стоимости корзины
 - Определение скидки для корзины (если предъявлена карта, сумму уменьшаем на размер скидки; если карта не предъявлена и если сумма > 2000руб., выписываем карту со скидкой 4%, если сумма > 500руб., выписываем карту 2%)
-
 
 # <img src="https://github.com/user-attachments/assets/e080adec-6af7-4bd2-b232-d43cb37024ac" width="20" height="20"/>Lab1
 [Назад](#content)
