@@ -28,7 +28,7 @@
 - Подсчет стоимости корзины
 - Определение скидки для корзины (если предъявлена карта, сумму уменьшаем на размер скидки; если карта не предъявлена и если сумма > 2000руб., выписываем карту со скидкой 4%, если сумма > 500руб., выписываем карту 2%)
 
-# <img src="https://github.com/user-attachments/assets/e080adec-6af7-4bd2-b232-d43cb37024ac" width="20" height="20"/>Lab1
+# <img src="https://github.com/user-attachments/assets/e080adec-6af7-4bd2-b232-d43cb37024ac" width="20" height="20"/> Lab1
 [Назад](#content)
 <h3 align="left">
   <a href="#client"></a>
