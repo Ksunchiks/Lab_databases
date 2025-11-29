@@ -68,7 +68,6 @@ GRANT EXECUTE ON FoodBasket TO Role_Cashier
 DENY EXECUTE ON CalculateProfit TO Role_Cashier                
 DENY EXECUTE ON CountCards TO Role_Cashier           
 DENY EXECUTE ON MaxDay TO Role_Cashier 
- 
 
 -- Права на выполнение функций
 GRANT SELECT ON ListCards TO Role_Cashier     
