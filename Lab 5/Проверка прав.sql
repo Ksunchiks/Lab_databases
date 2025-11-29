@@ -1,7 +1,7 @@
--- Проверка прав администратора 
+-- Проверка прав администратора --
 
-SELECT TOP 1 * FROM Employee 
-SELECT TOP 1 * FROM Products
+SELECT * FROM Employee 
+SELECT * FROM Products
 
 UPDATE DiscountCard SET discount_rate = 15.00 WHERE id = 1
 INSERT INTO Customer (customer_fio, phone_number) VALUES ('Тест', '111')
@@ -10,33 +10,34 @@ EXEC ExpiredProducts
 SELECT * FROM Manufacturers(1)
 SELECT * FROM Selling
 
--- Проверка делегирования прав
+-- проверка передачи прав
 BEGIN TRY
     GRANT SELECT ON Customer TO User_Cashier
-    PRINT 'Может делегировать права (WITH GRANT OPTION работает)'
+    PRINT 'Может передавать права (WITH GRANT OPTION работает)'
 END TRY
 BEGIN CATCH
-    PRINT 'Не может делегировать права: ' + ERROR_MESSAGE()
+    PRINT 'Не может передавать права: ' + ERROR_MESSAGE()
 END CATCH
 
 
 
--- Проверка прав кассира
+-- Проверка прав кассира --
 
-SELECT TOP 1 * FROM Customer
-SELECT TOP 1 * FROM Sale
+SELECT * FROM Customer
+SELECT * FROM Sale
 
 UPDATE DiscountCard SET discount_rate = 10.00 WHERE id = 1
 INSERT INTO Customer (customer_fio, phone_number) VALUES ('Тест Кассир', '444')
 
 EXEC ExpiredProducts
-SELECT TOP 1 * FROM Selling
+SELECT * FROM Selling
 
 -- запрещённая операция 
 BEGIN TRY
-    SELECT TOP 1 * FROM Employee
+    SELECT * FROM Employee
     PRINT 'Ошибка: Увидел сотрудников!'
 END TRY
 BEGIN CATCH
     PRINT 'Правильно: Не видит сотрудников'
 END CATCH
+
