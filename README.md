@@ -2,13 +2,13 @@
 
 <p align="center">
   <a href="#lab1"><img alt="lab1" src="https://img.shields.io/badge/Lab1-800000"></a> 
-  <a href="#lab2"><img alt="lab2" src="https://img.shields.io/badge/Lab2-DC143C"></a>
-  <a href="#lab3"><img alt="lab3" src="https://img.shields.io/badge/Lab3-CD5C5C"></a>
-  <a href="#lab4"><img alt="lab4" src="https://img.shields.io/badge/Lab4-FA8072"></a>
-  <a href="#lab5"><img alt="lab5" src="https://img.shields.io/badge/Lab5-F08080"></a>
-  <a href="#lab6"><img alt="lab6" src="https://img.shields.io/badge/Lab6-FFA07A"></a> 
-  <a href="#lab7"><img alt="lab7" src="https://img.shields.io/badge/Lab7-B22222"></a>
-  <a href="#lab8"><img alt="lab8" src="https://img.shields.io/badge/Lab8-A52A2A"></a>
+  <a href="#lab2"><img alt="lab2" src="https://img.shields.io/badge/Lab2-A52A2A"></a>
+  <a href="#lab3"><img alt="lab3" src="https://img.shields.io/badge/Lab3-C04000"></a>
+  <a href="#lab4"><img alt="lab4" src="https://img.shields.io/badge/Lab4-D2691E"></a>
+  <a href="#lab5"><img alt="lab5" src="https://img.shields.io/badge/Lab5-E9967A"></a>
+  <a href="#lab6"><img alt="lab6" src="https://img.shields.io/badge/Lab6-F5B78E"></a> 
+  <a href="#lab7"><img alt="lab7" src="https://img.shields.io/badge/Lab7-FFDAB9"></a>
+  <a href="#lab8"><img alt="lab8" src="https://img.shields.io/badge/Lab8-FFFACD"></a>
 </a> 
 </p>
 
