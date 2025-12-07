@@ -4,10 +4,10 @@
   <a href="#lab1"><img alt="lab1" src="https://img.shields.io/badge/Lab1-800000"></a> 
   <a href="#lab2"><img alt="lab2" src="https://img.shields.io/badge/Lab2-DC143C"></a>
   <a href="#lab3"><img alt="lab3" src="https://img.shields.io/badge/Lab3-CD5C5C"></a>
-  <a href="#lab4"><img alt="lab4" src="https://img.shields.io/badge/Lab4-F4A460"></a>
-  <a href="#lab5"><img alt="lab5" src="https://img.shields.io/badge/Lab5-DEB887"></a>
-  <a href="#lab6"><img alt="lab6" src="https://img.shields.io/badge/Lab6-BC8F8F"></a> 
-  <a href="#lab7"><img alt="lab7" src="https://img.shields.io/badge/Lab7-A0522D"></a>
+  <a href="#lab4"><img alt="lab4" src="https://img.shields.io/badge/Lab4-FA8072"></a>
+  <a href="#lab5"><img alt="lab5" src="https://img.shields.io/badge/Lab5-F08080"></a>
+  <a href="#lab6"><img alt="lab6" src="https://img.shields.io/badge/Lab6-FFA07A"></a> 
+  <a href="#lab7"><img alt="lab7" src="https://img.shields.io/badge/Lab7-B22222"></a>
   <a href="#lab8"><img alt="lab8" src="https://img.shields.io/badge/Lab8-A52A2A"></a>
 </a> 
 </p>
@@ -276,7 +276,7 @@ c) Замещающий триггер на операцию удаления �
 
 <h3>
 
-  6.3. [Запросы из задания 3.2 к двум моделям (реляционная, графовая.)](https://github.com/Ksunchiks/Lab_databases/blob/main/Lab%206/Сравнение%20запросов.sql)
+  6.3. [Запросы из задания 3.2 к двум моделям (реляционная, графовая)](https://github.com/Ksunchiks/Lab_databases/blob/main/Lab%206/Сравнение%20запросов.sql)
 </h3>
 
 <h3>
