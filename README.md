@@ -80,10 +80,9 @@ ER-модель д.б. представлена в виде ER-диаграмм�
 </h3>
 
   1) "Товар":
-  
 ![image](https://github.com/Ksunchiks/Lab_databases/blob/main/Lab%202/table_products.png)
 
-  2) "Покупатель":
+  3) "Покупатель":
      
 ![image](https://github.com/Ksunchiks/Lab_databases/blob/main/Lab%202/table_customer.png)
 
