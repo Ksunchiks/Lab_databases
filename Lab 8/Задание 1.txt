@@ -1,0 +1,222 @@
+// 1.Выведите все документы коллекции Ресторан в формате: restaurant_id, name, borough и cuisine, вывод  _id  для всех документов исключить.
+
+db.restaurants.find(
+    {}, 
+    {
+        _id: 0,
+        restaurant_id: 1,
+        name: 1,
+        borough: 1,
+        cuisine: 1
+    }
+)
+
+
+
+// 2.Выведите первые 5 ресторанов в алфавитном порядке, которые находятся в районе Bronx.
+
+db.restaurants.find(
+    { borough: "Bronx" },  // фильтр по району
+    {
+        _id: 0,            
+        restaurant_id: 1,  
+        name: 1,
+        borough: 1,
+    }
+).sort({ name: 1 }).limit(5)
+
+
+
+// 3.Найдите рестораны, которые набрали более 80, но менее 100 баллов.
+
+db.restaurants.find(
+    { "grades.score": { $gt: 80, $lt: 100 } },
+    {
+        _id: 0,
+        name: 1,
+        borough: 1,
+        restaurant_id: 1,
+        "grades.score": 1
+    }
+)
+
+
+
+// 4.Найдите рестораны, которые не относятся к типу кухни American, получили оценку «А», не расположены  в районе Brooklyn. Документ должен отображаться в соответствии с кухней в порядке убывания.
+
+db.restaurants.find(
+    {
+        cuisine: { $ne: "American" },  
+        borough: { $ne: "Brooklyn" },  
+        "grades.grade": "A"           
+    },
+    {
+        _id: 0,                       
+        name: 1,                      
+        borough: 1,
+        cuisine: 1,
+        restaurant_id: 1,
+        "grades.grade": 1             
+    }
+).sort({ cuisine: -1 })               
+
+
+
+// 5.Найдите идентификатор ресторана, название, район и кухню для тех ресторанов, чье название начинается с первых трех букв назвали «Wil»
+
+db.restaurants.find(
+    { name: /^Wil/ },
+    {
+        _id: 0,
+        name: 1,
+        restaurant_id: 1,
+        borough: 1,
+        cuisine: 1
+    }
+)
+
+
+
+// 6.Найдите  рестораны, которые относятся к району Bronx и готовят American или Chinese блюда.
+
+db.restaurants.find(
+    {
+        borough: "Bronx",
+        cuisine: { $in: ["American", "Chinese"] }
+    },
+    {
+        _id: 0,
+        name: 1,
+        borough: 1,
+        cuisine: 1
+    }
+)
+
+
+
+// 7.Найдите идентификатор ресторана, название и оценки для тех ресторанов, которые  «2014-08-11T00:00:00Z» набрали 9 баллов за оценку А
+
+db.restaurants.find(
+    { 
+        "grades": { 
+            $elemMatch: { 
+                "date.$date": new Date("2014-08-11").getTime(), - подсчёт в секундах
+                "grade": "A", 
+                "score": 9 
+            } 
+        } 
+    },
+    { 
+        _id: 0, 
+        restaurant_id: 1, 
+        name: 1, 
+        grades: 1 
+    }
+)
+
+
+
+// 8.В каждом районе посчитайте количество ресторанов по каждому виду кухни. Документ должен иметь формат borough, cuisine, count 
+
+db.restaurants.aggregate([
+  {
+    $group: {
+      _id: { borough: "$borough", cuisine: "$cuisine" },
+      count: { $sum: 1 }
+    }
+  }
+])
+
+
+
+// 9.В районе Bronx найдите ресторан с минимальной суммой набранных баллов.
+
+db.restaurants.aggregate([
+    { $match: { borough: "Bronx" } },
+    {
+        $project: {
+            _id: 0,
+            name: 1,
+            borough: 1,
+            total_score: { $sum: "$grades.score" }
+        }
+    },
+    { $sort: { total_score: 1 } },
+    { $limit: 1 }
+])
+
+
+
+// 10.Добавьте в коллекцию свой любимый ресторан.
+
+db.restaurants.insertOne({
+    "address": {
+        "building": "58",
+        "coord": [39.513522, 57.865324],  
+        "street": "улица Моторостроителей",
+        "zipcode": "152300"
+    },
+    "borough": "Тутаевский",
+    "cuisine": "Кофейня",
+    "grades": [
+        {"date": {"$date": new Date("2026-01-10").getTime()}, "grade": "A", "score": 10},
+        {"date": {"$date": new Date("2025-10-15").getTime()}, "grade": "B", "score": 14}
+    ],
+    "name": "Все Свои",
+    "restaurant_id": "51234567"  
+})
+
+
+
+// 11.В добавленном ресторане укажите информацию о времени его работы.
+
+db.restaurants.updateOne(
+    { restaurant_id: "51234567" }, 
+    {
+        $set: {
+            "opening_hours": {
+                "monday": "8:00-22:00",
+                "tuesday": "8:00-22:00", 
+                "wednesday": "8:00-22:00",
+                "thursday": "8:00-22:00",
+                "friday": "8:00-22:00",
+                "saturday": "9:00-23:00",
+                "sunday": "9:00-21:00"
+            }
+        }
+    }
+)
+
+Проверка:
+db.restaurants.findOne(
+    { restaurant_id: "51234567" },
+    { 
+        _id: 0,
+        name: 1,
+        "opening_hours": 1
+    }
+)
+
+
+
+// 12.Измените время работы вашего любимого ресторана.
+
+db.restaurants.updateOne(
+    { restaurant_id: "51234567" },
+    {
+        $set: {
+            "opening_hours.saturday": "9:00-00:00",  
+            "opening_hours.sunday": "9:00-00:00"    
+        }
+    }
+)
+
+Проверка:
+db.restaurants.findOne(
+    { restaurant_id: "51234567" },
+    { 
+        _id: 0,
+        name: 1,
+        "opening_hours": 1
+    }
+)
